@@ -6,6 +6,7 @@ import 'animate.css';
 const Title = () => {
   return <div>
       <div className="container-title">
+        <div className="test-title">
           <div className="title-container">
             <h1 className='title-h1 animate__animated animate__bounceIn animate__delay-2s '>
                 Bienvenido a mi portafolio
@@ -17,13 +18,14 @@ const Title = () => {
              <h3 className='animate__animated animate__fadeIn animate__delay-2s'>
                 Soy desarrollador Front-End
              </h3>
-             <p className='animate__animated animate__fadeIn animate__delay-2s'> <a  href="https://github.com/Jwefro">
+             <p className='icons-Home  animate__animated animate__fadeIn animate__delay-2s'> <a  target="_blank" rel="noreferrer" href="https://github.com/Jwefro">
              < img src={Github} className='font-icon' alt="" />
              </a>
-             <a href="https://www.upwork.com/freelancers/~012e10555ffdc9bb2a">
+             <a target="_blank" href="https://www.upwork.com/freelancers/~012e10555ffdc9bb2a" rel="noreferrer">
              <img src={Upwork} className='font-icon' alt="" /> 
              </a>
               </p>
+          </div>
           </div>
       </div>
     </div>

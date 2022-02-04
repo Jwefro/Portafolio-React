@@ -6,7 +6,7 @@ const AboutMe = () => {
   return <div>
       <div className="aboutMe-container">
             <Row className='aboutMe '>
-                <Col xs={5} className='aboutMe-text shadow ' >
+                <div  className='aboutMe-text shadow ' >
                     <div className="content-Center">
                 <div className="content-aboutMe">
                     <h2 >
@@ -20,12 +20,13 @@ const AboutMe = () => {
                     <Button className='button-aboutMe mt-5' >Descargar CV</Button>
                 </div>
                 </div>
-                </Col>
-                <Col className='aboutMe-image' xs={5}>
+                </div>
+                <div className='aboutMe-image'>
 
-                </Col>
+                </div>
             </Row>
       </div>
+      <div id='Skills' className=""></div>
   </div>;
 };
 

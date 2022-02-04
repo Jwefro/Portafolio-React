@@ -5,7 +5,7 @@ import Background from '../Background/Background';
 const Footer = () => {
     
   return (
-      <div className="footer-container">
+      <div  id='Contacto' name="Contacto" className="footer-container">
           <Background/>
 
       </div>

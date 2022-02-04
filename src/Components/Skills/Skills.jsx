@@ -36,61 +36,71 @@ const Skills = () => {
 
         
           <div className='Row-Skill'> 
-            <Col xs={2} className="Col-Skill shadow wow  animate__animated animate__bounce" data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10"> 
+            <Col xs={2} className="Col-Skill shadow wow  animate__animated animate__bounce" data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10"> 
             <Css className='skill-image' />
             <div className="div-Skill">
            <h5>Css</h5>
             </div>
             </Col>
-            <Col xs={2} className='Col-Skill shadow wow  animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10" >
+            <Col xs={2} className='Col-Skill shadow wow  animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10" >
                 <ReactJs className='skill-image'/>
                 <div className="div-Skill">
            <h5>React</h5>
             </div>
             </Col>
-            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10">
+            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10">
                 <Javascript className='skill-image'/>
                 <div className="div-Skill">
            <h5>JavaScript</h5>
             </div>
             </Col>
-            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10">
+            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10">
                 <Bootstrap className='skill-image'/>
                 <div className="div-Skill">
            <h5>Bootstrap</h5>
             </div>
             </Col>
-            <Col xs={2} className='Col-Skill shadow wow  animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10" >
+            <Col xs={2} className='Col-Skill shadow wow  animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10" >
                 <Html className='skill-image'/>
                 <div className="div-Skill">
            <h5>Html</h5>
             </div>
             </Col>
-            <Col xs={2} className='Col-Skill shadow wow  animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10">
+            <Col xs={2} className='Col-Skill shadow wow  animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10">
                 <Material className='skill-image'/>
                 <div className="div-Skill">
            <h5>Material</h5>
             </div>
             </Col>
-            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10">
+            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10">
                 <Git className='skill-image'/>
                 <div className="div-Skill">
            <h5>Git</h5>
             </div>
             </Col>
-            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10" >
+            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10" >
                 <Redux className='skill-image'/>
                 <div className="div-Skill">
            <h5>Redux</h5>
             </div>
             </Col>
-            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10" >
+            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10" >
                 <Semantic className='skill-image'/>
                 <div className="div-Skill">
            <h5>Semantic</h5>
             </div>
             </Col>
-            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10" >
+            <Col xs={2} className='Col-Skill shadow wow animate__animated animate__bounce' data-wow-duration="2s" data-wow-delay="5s"
+             data-wow-offset="10" >
                 <GitHub className='skill-image'/>
                 <div className="div-Skill">
            <h5>GitHub</h5>
@@ -98,6 +108,7 @@ const Skills = () => {
             </Col>
           </div>
       </div>
+      <div id='Portafolio' className=""></div>
   </div>;
 };
 

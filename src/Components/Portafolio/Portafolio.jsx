@@ -105,9 +105,9 @@ const Portafolio = () => {
 
 
   return <div>
-      <div className="portafolio-container">
+      <div  className="portafolio-container">
           <div className="title-portafolio">
-              <h1>
+              <h1 >
                   Portafolio
               </h1>
               <p>
