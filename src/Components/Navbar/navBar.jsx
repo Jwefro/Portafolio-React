@@ -13,7 +13,7 @@ const NavBar = () => {
               <FontAwesomeIcon icon={faBars} />
 
               </label>
-            
+            <span className='Name-icon' >Jeffrey Ca</span>
               
         <ul className="nav-menu">
           <li className="nav-item ">
